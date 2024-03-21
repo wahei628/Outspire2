@@ -76,5 +76,5 @@ Rails.application.configure do
 
   # ホワイトリストに許可したいhostの追加
   config.hosts << "outspire-c34a8ece51b3.herokuapp.com"
-  
+
 end
