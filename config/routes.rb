@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root 'tops#index'
-  get 'top' => 'static_pages#top'
+  root "static_pages#top"
   resources :users, only: %i[new create]
 
   get 'login' => 'user_sessions#new'
